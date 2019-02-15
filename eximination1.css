@@ -27,12 +27,21 @@ header h1 {
     margin: 0;
     overflow: hidden;  
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   header h1 {
     font-size: 4em;
   }
 }
-@media only screen and (max-width: 500px) {
+
+h3{
+    font-family: 'Playfair Display SC', georgia, serif;
+    font-size: 1.3em;
+    margin:20px 0px -40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
   header h3 {
     margin:20px 0px -10px;
   }
@@ -79,24 +88,18 @@ li {
 
 h1{
     font-family: 'Playfair Display SC', georgia, serif;
-    font-size: 2em;
+    font-size: 1.8em;
     margin:20px 0px 10px;   
     text-transform: uppercase;
+    word-break: break-all;
 }
 h2{
     font-family: 'Playfair Display SC', georgia, serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin:20px 0px 10px;
     text-transform: uppercase;
 }
-h3{
-    font-family: 'Playfair Display SC', georgia, serif;
-    font-size: 1.3em;
-    margin:20px 0px -40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-}
+
 p{
     margin: 0 20px;
     font-size: 0.9em;
@@ -145,7 +148,7 @@ p{
     margin-top: -150px;
     margin-right: 10px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   img.icon {
     display: none;
   }
