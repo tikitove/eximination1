@@ -29,12 +29,12 @@ header h1 {
 }
 @media only screen and (max-width: 500px) {
   header h1 {
-    font-size: 5em;
+    font-size: 4em;
   }
 }
 @media only screen and (max-width: 500px) {
   header h3 {
-    margin:20px 0px -20px;
+    margin:20px 0px -10px;
   }
 }
 
@@ -80,7 +80,7 @@ li {
 h1{
     font-family: 'Playfair Display SC', georgia, serif;
     font-size: 2em;
-    margin:20px 0px 10px;    
+    margin:20px 0px 10px;   
     text-transform: uppercase;
 }
 h2{
@@ -98,7 +98,7 @@ h3{
     color: #ffffff;
 }
 p{
-    margin: 0px;
+    margin: 0 20px;
     font-size: 0.9em;
 }
 
